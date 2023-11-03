@@ -27,3 +27,12 @@ console.log(obj3);
 
 const obj4 = {...obj1, ...obj2, ...arr1};
 console.log(obj4);
+
+const obj5 = {...obj1, 
+    loading: true,
+    data: {
+        prop: "lala",
+        animal: "perro"
+    }
+};
+console.log(obj5);
