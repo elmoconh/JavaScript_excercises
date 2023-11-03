@@ -12,7 +12,7 @@ console.log(r);
 
 const ArrowFn = () => {
     this.prop = "funcion flecha"
-    console.log("Hola desde una" + this.prop);
+    console.log("Hola desde una " + this.prop);
     return "Hola";
 }
 
@@ -21,3 +21,8 @@ const ArrowFn = () => {
 
 const r1 = ArrowFn();
 console.log(r1);
+
+// return implicito
+const ArrowFn1 = () => "Hola Desde otra funcion flecha";
+const r2 = ArrowFn1();
+console.log(r2);
